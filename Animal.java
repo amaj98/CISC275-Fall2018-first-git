@@ -6,9 +6,9 @@ class Animal{
     this.legs = legs;
   }
   public String toString(){
-    return this.name;
+    return name;
   }
   public int getLegs(){
-    return this.legs;
+    return legs;
   }
 }

@@ -8,4 +8,5 @@
 
 
 3. Can you spot the comparator constructor call? Where is the class definition for the comparator?
-  The constructor is called when sorting the collection, and the class definition for the comparator is right there where it is being called.
+  The constructor is called when sorting the collection(line 16), and because
+  the comparator is an anonymous class, it is being defined right where it is being called.
